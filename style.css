@@ -10,7 +10,6 @@ nav a{
 nav{
     padding-top: 25px;
     float: right;
-    
 }
 #logo{
     margin-left: 50px;
@@ -37,25 +36,35 @@ nav{
     font-weight: bold;
 
 }
+.backgroundimgcontainer{
+    width: 45%;
+    height: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .background-img{
+    margin-top: 80px;
     width: 100%;
     height: 100%;
-    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+
 }
 body{
     background-color: #9FC9C2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .p1{
+    margin-top: 20px;
     margin-left: 40px;
     color: rgba(251, 250, 246);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .myth{
     height: 300px;
     width: 300px;
-    margin: 0 20px;
+    margin: 15px 20px;
     border-radius: 25px;
     transition: transform 0.2s;
 }
