@@ -23,8 +23,6 @@ nav{
     background-color: rgba(106, 172, 162);
     width: 100%;
     position: fixed;
-    margin-top: -10px;
-    margin-left: -8px;
 }
 .website-desc{
     font-size: 1.5rem;
@@ -52,6 +50,7 @@ nav{
 }
 body{
     background-color: #9FC9C2;
+    margin: 0 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .p1{
@@ -62,16 +61,36 @@ body{
     font-size: 1.5rem;
 }
 .myth{
-    height: 300px;
-    width: 300px;
-    margin: 15px 20px;
-    border-radius: 25px;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 10%;
     transition: transform 0.2s;
 }
 .container{
-    padding: 0 40px;
+    margin: 40px 0;
+    padding: 0 5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 6vw;
+    row-gap: 3vw;
 }
 .myth:hover{
     /* border: 4px solid rgba(251, 250, 246); */
     transform: scale(1.2);
+}
+.footer{
+    display: flex;
+    margin-top: 40px;
+    height: 8vh;
+    background-color:rgba(106, 172, 162);
+    justify-content: center;
+    align-items: center;
+    color: rgba(251, 250, 246);
+    font-size: 18px;
+}
+::selection{
+    background-color: rgb(185, 231, 205);
+}
+nav>a:hover{
+    text-decoration: underline;
 }
